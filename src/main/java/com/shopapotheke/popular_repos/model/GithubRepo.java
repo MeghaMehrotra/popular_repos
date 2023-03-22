@@ -1,8 +1,7 @@
 package com.shopapotheke.popular_repos.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-import java.io.Serializable;
+import org.springframework.boot.autoconfigure.info.ProjectInfoProperties;
 
 /**
  * @author mmehrotra
@@ -13,6 +12,14 @@ public class GithubRepo {
 
     String name;
     String html_url;
+
+    public GithubRepo() {
+    }
+
+    public GithubRepo(String name, String html_url) {
+        this.name = name;
+        this.html_url = html_url;
+    }
 
     public String getName() {
         return name;

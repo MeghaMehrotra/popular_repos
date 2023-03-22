@@ -1,7 +1,7 @@
 ## Github API Popular Repositories
 
 This project is a Java Spring Boot application that uses the Github API to fetch the most popular repositories. The application allows the user to filter the results based on language, creation date, sorting and ordering parameters.
-###Requirements
+### Requirements
 To run this project, you need:
 
 * Java 8 or later
